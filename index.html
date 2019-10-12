@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/css/wildStyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" type="image/png" href="img/general/favicon.png"/>
+  <title>www.carlis.biz</title>
+</head>
+
+<body>
+  <header>
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="resume.html">Resume</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">Portfolio
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="portfolioStreet.html">Street Photography</a>
+      <a href="portfolioPortraits.html">Portraits</a>
+      <a href="portfolioItalia.html">Italia</a>
+
+      <!-- <a href="webDev.html">Web Design</a> -->
+    </div>
+  </div>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+
+
+  <!-- the below javascript code puts the link inside the nav bar -->
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</header>
+
+  <!-- end header -->
+
+
+
+<div class="logo">
+  <img src="img/general/myLogo.png" width="600" height="374" align="center" alt="Logo">
+</div>
+
+<p class="theBiz">iTunes Metadata Packager / Photographer</p>
+<p class="theBiz">carlis.biz</p>
+
+
+<div id="reBorder">
+
+  <div>
+    <a href="portfolioStreet.html"><img id="homeStreetIMG" src="img/general/andHaveAniceDay.jpg" alt="Googley Eyes">
+    <a id="homeStreet" href="portfolioStreet.html">Street Photography</a>
+  </div>
+
+
+  <div>
+    <a href="portfolioPortraits.html"><img id="homePortIMG" src="img/general/ciocolateHome.jpg" alt="Woman's portrait">
+    <a id="homePort" href="portfolioPortraits.html">Portraits</a>
+  </div>
+  <div>
+    <a href="portfolioItalia.html"><img id="homeITAimg" src="img/general/sanPietroVaticano.jpg" alt="Vatican">
+    <a id="homeITA" href="portfolioItalia.html">Italia</a>
+  </div>
+</div>
+
+
+
+
+</body>
+
+</html>
